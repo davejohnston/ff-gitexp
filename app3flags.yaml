@@ -16,12 +16,12 @@ featureFlags:
         - identifier: "false"
           value: "false"
       environments:
-      - identifier: prod
+      - identifier: test
         default:
           onVariation: "true"
           offVariation: "false"
         state: "off"
-      - identifier: test
+      - identifier: prod
         default:
           onVariation: "true"
           offVariation: "false"
@@ -42,12 +42,12 @@ featureFlags:
         - identifier: "false"
           value: "false"
       environments:
-      - identifier: prod
+      - identifier: test
         default:
           onVariation: "true"
           offVariation: "false"
-        state: "off"
-      - identifier: test
+        state: "on"
+      - identifier: prod
         default:
           onVariation: "true"
           offVariation: "false"
